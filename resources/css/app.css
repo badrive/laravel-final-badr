@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.sec-1 {
+    background-image: url('../../public/assets/img/sec1-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+}
+
+.sec-1-img {
+    background-image: url('../../public/assets/img/IMG_9289_jpg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
