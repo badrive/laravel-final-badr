@@ -1,7 +1,7 @@
-@extends('layouts.index')
+@extends('layouts.index2')
 
 
-@section('main')
+@section('content')
     <div class="">
         <h1>
             Welcome again!
