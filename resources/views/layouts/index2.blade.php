@@ -67,8 +67,8 @@
 
                     @guest
 
-                        <a href="{{ login }}">Login</a>
-                        <a href="{{ register }}">register</a>
+                        <a href="{{ route('login') }}" >Login</a>
+                        <a class="bg-[#951f1f] rounded-lg p-2" href="{{ route('register') }}" >register</a>
                 
 
                     @endguest
