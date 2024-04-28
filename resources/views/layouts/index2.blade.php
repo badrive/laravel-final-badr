@@ -125,11 +125,11 @@
 
     @yield('content')
 
-    <footer class="bg-gray-900 py-8 px-10 font-[sans-serif]">
+    <footer class="bg-black py-8 px-10 font-[sans-serif] border-t-2 border-red-500">
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
             <div class="lg:flex lg:items-center">
                 <a href="javascript:void(0)">
-                    <img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class="w-48" />
+                    <img class="w-28" src="{{ asset('assets/img/sushilogo.png') }}" alt="logo" class="w-48" />
                 </a>
             </div>
             <div class="lg:flex lg:items-center">
@@ -195,8 +195,8 @@
                 </ul>
             </div>
         </div>
-        <p class='text-gray-300 text-sm mt-8'>© 2023<a href='https://readymadeui.com/' target='_blank'
-                class="hover:underline mx-1">ReadymadeUI</a>All Rights Reserved.
+        <p class='text-gray-300 text-sm mt-8'>© 2024<a href='https://readymadeui.com/' target='_blank'
+                class="hover:underline mx-1">SUDOsushi</a>All Rights Reserved.
         </p>
     </footer>
 
