@@ -130,7 +130,7 @@
             <h1>
                 All menu :
             </h1>
-            <div class="border rounded p-10 w-[60vw]">
+            <div class="border rounded p-10 w-[60vw] flex-col gap-3">
                 @foreach ($Menus as $menu)
                     <div class="flex justify-center gap-x-28 h-44 w-full border-2 border-red-600 p-4">
                         <h1>
@@ -148,7 +148,7 @@
                             <button data-bs-toggle="modal" data-bs-target="#{{ $menu->id }}">edit</button>
                         </span>
                     </div>
-                    <div class="modal fade" id="{{ $menu->id }}" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    <div class="modal fade p-3 border-2 border-red-600" id="{{ $menu->id }}" tabindex="-1" aria-labelledby="exampleModalLabel"
                         aria-hidden="true">
                         <div class="modal-dialog ">
                             <div class="modal-content">
