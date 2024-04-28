@@ -60,7 +60,7 @@ class CartController extends Controller
     //     return redirect()->route('cart.index')->with('message', 'Item added to cart successfully!');
     // }
 
-
+  
     /**
      * Display a listing of the resource.
      */
@@ -108,7 +108,7 @@ class CartController extends Controller
 
     public function updateCartadd(Request $request, $cartId)
     {
-        dd("h");
+        // dd("h");
 
         $cart = Cart::where("menu_id", $cartId)->firstOrFail();
         // foreach ($user as $key => $value) {
@@ -171,7 +171,7 @@ class CartController extends Controller
 
     public function test()
     {
-        dd("f");
+        // dd("f");
     }
 
 
