@@ -205,31 +205,31 @@
 
     {{-- reviews --}}
 
-    <div class=" md:px-10 px-4 py-12 font-[sans-serif]">
+    <div class=" md:px-10 px-4 py-12 font-[sans-serif]  text center">
 
-        <div class="max-w-2xl mx-auto text-center pb-10 p-10">
+        <div class="max-w-2xl mx-auto text-center pb-10 p-10  ">
             <h2 class=" text-6xl"><span class="font-extrabold">Testimonials</span></h2>
-            <p class="text-2xl mt-2 leading-relaxed">Real Stories, Genuine Experiences</p>
+            <p class="text-2xl mt-2 leading-relaxed ">Real Stories, Genuine Experiences</p>
         </div>
 
       <div class="max-md:max-w-lg mx-auto ">
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-black">
           
-          <div class="bg-white w-[320px] h-[340px]">
-            <h1 class="text-2xl text-[#951f1f] font-bold">Fabricio Sanchez</h1>
+          <div class="bg-white w-[320px] h-[340px] p-5 flex flex-col gap-3 text-center">
+            <h1 class="text-2xl text-[#951f1f] font-bold ">Fabricio Sanchez</h1>
             <p>Food is delicious. One of the best I had the chance to have in South Florida. Also, the atmosphere is very cool and I found the price is very fair.</p>
 
           </div>
 
-          <div class="bg-white w-[320px] h-[340px]">
-            <h1>Fabricio Sanchez</h1>
-            <p>Food is delicious. One of the best I had the chance to have in South Florida. Also, the atmosphere is very cool and I found the price is very fair.</p>
+          <div class="bg-white w-[320px] h-[340px] p-5 flex flex-col gap-3 text-center">
+            <h1 class="text-2xl text-[#951f1f] font-bold ">Helvio Neto</h1>
+            <p>During my last visit to Temak House Florida, the exceptional service truly complemented the outstanding culinary experience. The staff's attentiveness and friendly demeanor added an extra layer of enjoyment to the indigenous-inspired dishes..</p>
 
           </div>
 
-          <div class="bg-white w-[320px] h-[340px]">
-            <h1>Fabricio Sanchez</h1>
-            <p>Food is delicious. One of the best I had the chance to have in South Florida. Also, the atmosphere is very cool and I found the price is very fair.</p>
+          <div class="bg-white w-[320px] h-[340px] p-5 flex flex-col gap-3 text-center">
+            <h1 class="text-2xl text-[#951f1f] font-bold ">Katia Pereira</h1>
+            <p>Simply an amazing place. Best sushi ever, beautiful presentation and great service. Highly recommend.</p>
 
           </div>
           
