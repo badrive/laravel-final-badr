@@ -31,7 +31,7 @@
                         </h3>
                         <form action="{{ route('profil.promote', $user->id) }}" method="POST">
                             @csrf
-                            <button type="submit">
+                            <button class="bg-[#951f1f] p-3" type="submit">
                                 Promote
                             </button>
                         </form>
