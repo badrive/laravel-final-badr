@@ -10,7 +10,7 @@
             </span>
         </h1>
     </div>
-    <div class="">
+    <div class="p-10">
 
         {{-- all users --}}
         <div class="flex flex-col items-center justify-center">
@@ -91,7 +91,7 @@
                         <input type="string" class="border" name="table_number" id="">
                         <input type="number" class="border" name="capacity" id="">
                         <input type="file" class="border" name="image" id="">
-                        <button type="submit">
+                        <button class="bg-[#951f1f] p-3" type="submit">
                             Create
                         </button>
                     </div>
@@ -132,19 +132,19 @@
             </h1>
             <div class="border rounded p-10 w-[60vw]">
                 @foreach ($Menus as $menu)
-                    <div class="flex justify-center gap-x-28 h-44 w-full">
+                    <div class="flex justify-center gap-x-28 h-44 w-full border-2 border-red-600 p-4">
                         <h1>
                             {{ $menu->name }}
                         </h1>
                         <h3>
                             {{ $menu->price }}
                         </h3>
-                        <h3>
+                        <h3 class="text-xs">
                             {{ $menu->description }}
                         </h3>
 
                         <img width="200" src="{{ asset('storage/img/' . $menu->image) }}" alt="">
-                        <span class="text-[15px] h-12  bg-blue-500 rounded-md">
+                        <span class="text-[15px] p-3 h-10  bg-[#951f1f] rounded-md">
                             <button data-bs-toggle="modal" data-bs-target="#{{ $menu->id }}">edit</button>
                         </span>
                     </div>
@@ -182,7 +182,7 @@
                         <input type="text" class="border" name="description" id="">
                         <input type="number" name="price" id="">
                         <input type="file" class="border" name="image" id="">
-                        <button type="submit">
+                        <button class="bg-[#951f1f] p-3" type="submit">
                             Create
                         </button>
                     </div>
