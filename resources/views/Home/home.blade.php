@@ -19,8 +19,8 @@
           <h2 class="md:text-4xl text-3xl md:leading-10 font-extrabold text-[#e8e8e8] mb-4">MAKI PAIRINGS</h2>
           <p class="mt-4 text-base text-[#9c9b9b] leading-relaxed">Discover our new Maki Pairings: 8 Maki pieces offered in 2 flavour duos. For a limited time, we’re offering 5x Loyalty Points with the purchase of each pairing!</p>
           <div class="mt-8 flex max-sm:flex-col sm:space-x-4 max-sm:space-y-6">
-            <a href="javascript:void(0);" class="px-6 py-3 text-base font-semibold text-white bg-[#951f1f] rounded-full hover:bg-opacity-80 transition-all duration-300 transform hover:scale-105 focus:ring-2 focus:ring-[#951f1f] focus:outline-none focus:ring-opacity-50">Book a Table</a>
-            <a href="javascript:void(0);" class="px-6 py-3 text-base font-semibold text-[#951f1f] border border-[#951f1f] rounded-full hover:text-white hover:bg-[#951f1f] transition-all duration-300 transform hover:scale-105 focus:ring-2 focus:ring-[#951f1f] focus:outline-none focus:ring-opacity-50">Order Now</a>
+            <a href="{{ route('cart.index') }}" class="px-6 py-3 text-base font-semibold text-white bg-[#951f1f] rounded-full hover:bg-opacity-80 transition-all duration-300 transform hover:scale-105 focus:ring-2 focus:ring-[#951f1f] focus:outline-none focus:ring-opacity-50">Book a Table</a>
+            <a href="{{ route('menu.index') }}" class="px-6 py-3 text-base font-semibold text-[#951f1f] border border-[#951f1f] rounded-full hover:text-white hover:bg-[#951f1f] transition-all duration-300 transform hover:scale-105 focus:ring-2 focus:ring-[#951f1f] focus:outline-none focus:ring-opacity-50">Order Now</a>
           </div>
         </div>
         <div class="md:h-[450px]">
@@ -32,7 +32,7 @@
 
       <div class="sec-1 p-10">
         <div class="flex md:flex-row flex-col-reverse gap-2 justify-center items-center">
-            <div class="p-3 md:w-[30vw] flex flex-col gap-3">
+            <div class="p-3 md:w-[30vw] flex flex-col  gap-3">
                 <h1 class="text-6xl"><span class="font-bold">About</span> us</h1>
                 <p class="text-sm">Founded by Ricardo Mendonça, a gastronomy enthusiast, and his wife Flávia, Temak House emerged from their passion for Japanese cuisine in Garanhuns, a tranquil city known for its pleasant climate and Flávia’s hometown. Opening its doors in 2013, it became the city's pioneer in Japanese dining, continually evolving to match market trends and deliver exceptional culinary experiences.
                 </p>
@@ -65,25 +65,25 @@
         <div class="max-md:max-w-lg mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class=" bg-[#e8e8e8] text-black rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <img src="https://readymadeui.com/cardImg.webp" alt="Blog Post 1" class="w-full h-64 object-cover" />
+              <img src="https://blog-assets.lightspeedhq.com/img/2020/02/0124b2c6-maris-piper-plattegrond-1.jpg" alt="Blog Post 1" class="w-full h-64 object-cover" />
               <div class="p-6">
-                <h3 class="text-2xl font-semibold mb-2">Lorem Ipsum Dolor</h3>
+                <h3 class="text-2xl font-semibold mb-2">pokoru</h3>
                 <p class="text-sm opacity-75">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore...</p>
                 <a href="javascript:void(0);" class="mt-4 inline-block text-[#951f1f] text-sm hover:underline">Book</a>
               </div>
             </div>
             <div class=" bg-[#e8e8e8] text-black rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <img src="https://readymadeui.com/hotel-img.webp" alt="Blog Post 2" class="w-full h-64 object-cover" />
+              <img src="https://i0.wp.com/lilm.co/wp-content/uploads/2020/06/JULIETTE_8M5A0141.jpg?fit=2000%2C1334&ssl=1" alt="Blog Post 2" class="w-full h-64 object-cover" />
               <div class="p-6">
-                <h3 class="text-2xl font-semibold mb-2">Consectetur Adipiscing</h3>
+                <h3 class="text-2xl font-semibold mb-2">sakura</h3>
                 <p class="text-sm opacity-75">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore...</p>
                 <a href="javascript:void(0);" class="mt-4 inline-block text-[#951f1f] text-sm hover:underline">Book</a>
               </div>
             </div>
             <div class=" bg-[#e8e8e8] text-black rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
-              <img src="https://readymadeui.com/team-image.webp" alt="Blog Post 3" class="w-full h-64 object-cover" />
+              <img src="https://lilm.co/wp-content/uploads/2018/06/the-botanist-restaurant-fairmont-hotel-ste-marie-interiors-vancouver-canada_dezeen_2364_col_5-1704x1136.jpg" alt="Blog Post 3" class="w-full h-64 object-cover" />
               <div class="p-6">
-                <h3 class="text-2xl font-semibold mb-2">Lorem Ipsum Sit Amet</h3>
+                <h3 class="text-2xl font-semibold mb-2">Naturushi</h3>
                 <p class="text-sm opacity-75">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore...</p>
                 <a href="javascript:void(0);" class="mt-4 inline-block text-[#951f1f] text-sm hover:underline">Book</a>
               </div>
@@ -104,7 +104,7 @@
               <img src="https://readymadeui.com/team-1.webp" class="w-full rounded-md inline-block" />
               <div class="mt-4">
                 <h4 class="text-xl font-extrabold">John Doe</h4>
-                <p class="text-sm font-semibold mt-1">Software Engineer</p>
+                <p class="text-sm font-semibold mt-1">expert sushi</p>
                 <div class="space-x-4 mt-4">
                   <button type="button"
                     class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
@@ -137,7 +137,7 @@
                 <img src="https://readymadeui.com/team-2.webp" class="w-full rounded-md inline-block" />
                 <div class="mt-4">
                   <h4 class="text-xl font-extrabold">Mark Adair</h4>
-                  <p class="text-sm font-semibold mt-1">Software Engineer</p>
+                  <p class="text-sm font-semibold mt-1">Chef cuisine</p>
                   <div class="space-x-4 mt-4">
                     <button type="button"
                       class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">
@@ -170,7 +170,7 @@
               <img src="https://readymadeui.com/team-3.webp" class="w-full rounded-md inline-block" />
               <div class="mt-4">
                 <h4 class="text-xl font-extrabold">Simon Konecki</h4>
-                <p class="text-sm font-semibold mt-1">Web Designer</p>
+                <p class="text-sm font-semibold mt-1">expert nudels</p>
                 <div class="space-x-4 mt-4">
                   <button type="button"
                     class="w-7 h-7 inline-flex items-center justify-center rounded-full border-none outline-none bg-gray-100 hover:bg-gray-200">

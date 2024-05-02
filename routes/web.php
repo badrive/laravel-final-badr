@@ -37,11 +37,11 @@ Route::put('/staff/{reservation}', [StaffController::class, 'updateTable'])->nam
 Route::get('/menu', [MenuController::class, 'index'])->name('menu.index');
 // ^^ menu end
 
+Route::get('/contact', function () {
+    return view('Contact.contact');
+})->name('contact.index');
 Route::middleware('auth')->group(function () {
 
-    Route::get('/contact', function () {
-        return view('Contact.contact');
-    })->name('contact.index');
 
     Route::get('/about', function () {
         return view('About.about');
