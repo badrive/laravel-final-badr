@@ -65,10 +65,10 @@
             
             @foreach (Auth::user()->menus as $cart)
 
-              <div class="flex items-start justify-between gap-4 py-8">
+              <div class="flex items-start justify-between gap-4 py-8 ">
                 <div class="flex gap-6">
                   <div class="h-64 bg-gray-100 p-6 rounded">
-                    <img src='https://readymadeui.com/product_img_2.webp' class="w-full h-full object-contain shrink-0" />
+                    <img src="{{ asset('storage/img/' . $cart->image) }}" class="w-full h-full object-contain shrink-0" />
                   </div>
                   <div>
                     <p class="text-md font-bold text-[#333]">{{ $cart->name }}</p>
@@ -145,9 +145,11 @@
             </div>
             <div class="bg-gray-100 p-8">
               <h3 class="text-2xl font-bold text-[#333]">Order summary</h3>
-              {{-- <ul class="text-[#333] mt-6 divide-y">
-                <li class="flex flex-wrap gap-4 text-md py-3 font-bold">Total <span class="ml-auto">${{  }}</span></li>
-              </ul> --}}
+              <ul class="text-[#333] mt-6 divide-y">
+                <li class="flex flex-wrap gap-4 text-md py-3 font-bold">Total <span class="ml-auto">$ 
+                  {{ $totalPrice }}
+                </span></li>
+              </ul>
 
 
             <form action="/session" method="GET">

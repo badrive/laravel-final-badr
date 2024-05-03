@@ -1,3 +1,5 @@
+import 'animate.css';
+
 var toggleOpen = document.getElementById('toggleOpen');
   var toggleClose = document.getElementById('toggleClose');
   var collapseMenu = document.getElementById('collapseMenu');

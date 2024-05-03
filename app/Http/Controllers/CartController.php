@@ -67,8 +67,10 @@ class CartController extends Controller
     public function index(Menu $menu)
     {
         //
-        $carts = Cart::where('user_id', Auth::id())->first();
-        return view('Cart.cart', compact('carts'));
+        $carts = Cart::where('user_id', Auth::id())->get();
+        
+        $totalPrice = $carts->sum("price");
+        return view('Cart.cart', compact('carts' , "totalPrice"));
     }
 
     // public function deleteItemOne(Request $request, $menuId)

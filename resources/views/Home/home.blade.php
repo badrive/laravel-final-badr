@@ -14,8 +14,8 @@
 
     {{-- sec 1 --}}
 
-    <div class="grid md:grid-cols-2 items-center md:gap-8 gap-6 font-[sans-serif] text-[#333] max-w-5xl max-md:max-w-md mx-auto p-3">
-        <div class="max-md:order-1 max-md:text-center">
+    <div class=" grid md:grid-cols-2 items-center md:gap-8 gap-6 font-[sans-serif] text-[#333] max-w-5xl max-md:max-w-md mx-auto p-3">
+        <div class="animate__animated animate__bounceInLeft max-md:order-1 max-md:text-center">
           <h2 class="md:text-4xl text-3xl md:leading-10 font-extrabold text-[#e8e8e8] mb-4">MAKI PAIRINGS</h2>
           <p class="mt-4 text-base text-[#9c9b9b] leading-relaxed">Discover our new Maki Pairings: 8 Maki pieces offered in 2 flavour duos. For a limited time, we’re offering 5x Loyalty Points with the purchase of each pairing!</p>
           <div class="mt-8 flex max-sm:flex-col sm:space-x-4 max-sm:space-y-6">
@@ -23,7 +23,7 @@
             <a href="{{ route('menu.index') }}" class="px-6 py-3 text-base font-semibold text-[#951f1f] border border-[#951f1f] rounded-full hover:text-white hover:bg-[#951f1f] transition-all duration-300 transform hover:scale-105 focus:ring-2 focus:ring-[#951f1f] focus:outline-none focus:ring-opacity-50">Order Now</a>
           </div>
         </div>
-        <div class="md:h-[450px]">
+        <div class="animate__animated animate__bounceInRight md:h-[450px]">
           <img src="{{ asset('assets/img/sushi-sec-1.png') }}" class="w-full h-full object-contain rounded-lg shadow-xl" alt="Dining Experience" />
         </div>
       </div>
@@ -31,8 +31,8 @@
       {{-- about us --}}
 
       <div class="sec-1 p-10">
-        <div class="flex md:flex-row flex-col-reverse gap-2 justify-center items-center">
-            <div class="p-3 md:w-[30vw] flex flex-col  gap-3">
+        <div class=" flex md:flex-row flex-col-reverse gap-2 justify-center items-center">
+            <div class=" p-3 md:w-[30vw] flex flex-col  gap-3">
                 <h1 class="text-6xl"><span class="font-bold">About</span> us</h1>
                 <p class="text-sm">Founded by Ricardo Mendonça, a gastronomy enthusiast, and his wife Flávia, Temak House emerged from their passion for Japanese cuisine in Garanhuns, a tranquil city known for its pleasant climate and Flávia’s hometown. Opening its doors in 2013, it became the city's pioneer in Japanese dining, continually evolving to match market trends and deliver exceptional culinary experiences.
                 </p>
@@ -43,7 +43,7 @@
                     Expanding our horizons, Temak House ventured into the United States about four years ago, establishing a presence in Deerfield Beach, South Florida. This expansion has allowed us to become a staple in the Brazilian community abroad, mirroring our success back home in Brazil.
                 </p>
             </div>
-            <div class="md:h-[500px] md:w-[30vw] w-[350px] h-[500px]">
+            <div class=" md:h-[500px] md:w-[30vw] w-[350px] h-[500px]">
                 <div class="sec-1-img h-full rounded-2xl">
                 </div>
             </div>

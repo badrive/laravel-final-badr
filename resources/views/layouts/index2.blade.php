@@ -106,8 +106,8 @@
                                 </svg>
 
                             </a>
-                            {{-- <span
-                                class="absolute left-auto -ml-1 top-0 rounded-full bg-red-500 px-1 py-0 text-xs text-white">0</span> --}}
+                            <span
+                                class="absolute left-auto -ml-1 top-0 rounded-full bg-red-500 px-1 py-0 text-xs text-white">{{ Auth::user()->menus->count()  }}</span>
                         </span>
 
                     @endauth

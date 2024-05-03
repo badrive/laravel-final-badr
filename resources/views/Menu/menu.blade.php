@@ -29,10 +29,10 @@
 
         @foreach ($Menus as $menu)
 
-        <div class="bg-[#951f1f] p-2 overflow-hidden cursor-pointer">
+        <div class="bg-[#951f1f] p-2 overflow-hidden cursor-pointer animate__animated animate__bounce">
           <div class="bg-black flex flex-col h-full p-3">
             <div class="w-full h-[250px] overflow-hidden mx-auto aspect-w-16 aspect-h-8">
-              <img src="{{ asset('assets/img/sushi.png') }}" alt="food1"
+              <img src="{{ asset('storage/img/' . $menu->image) }}" alt="food1"
                 class="h-full w-full object-cover" />
             </div>
             

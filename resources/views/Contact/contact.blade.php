@@ -5,7 +5,7 @@
 
 <div class="p-5 grid sm:grid-cols-2 items-center gap-16 my-6 mx-auto max-w-4xl bg-black text-white  font-[sans-serif]">
     <div>
-        <h1 class="text-[#951f1f] text-3xl font-extrabold">Let's Talk</h1>
+        <h1 class="text-[#951f1f] text-6xl font-extrabold">Let's Talk</h1>
         <p class="text-sm text-whitw mt-3">Have some big idea or brand to develop and need help? Then reach out we'd love to hear about your project  and provide help.</p>
         <div class="mt-12">
             <h2 class="text-[#951f1f] text-lg font-extrabold">Email</h2>
@@ -27,7 +27,7 @@
             </ul>
         </div>
         <div class="mt-12">
-            <h2 class="text-[#951f1f] text-lg font-extrabold">Socials</h2>
+            <h2 class="text-[#951f1f] text-xl font-extrabold">Socials</h2>
             <ul class="flex mt-3 space-x-4">
                 <li class=" h-10 w-10 rounded-full flex items-center justify-center shrink-0">
                     <a href="javascript:void(0)">
